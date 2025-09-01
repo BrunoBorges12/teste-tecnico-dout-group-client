@@ -1,9 +1,9 @@
-import { useState } from "react";
+
 import { Layout } from "./components/Layout";
-import { NavBar, Navigation, Siderbar } from "./components/Navigation";
+import { NavBar, Siderbar } from "./components/Navigation";
+import User from "./pages/user";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <Layout.Main>
@@ -12,7 +12,7 @@ function App() {
       <Layout.Site>
         <NavBar />
         <Layout.Content>
-          <h1>Dot Group - Teste Técnico Frontend</h1>
+          <User />
         </Layout.Content>
       </Layout.Site>
     </Layout.Main>

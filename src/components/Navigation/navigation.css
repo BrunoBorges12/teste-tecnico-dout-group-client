@@ -30,3 +30,16 @@
 	top: 0px;
 	z-index: 1001;
 }
+
+.link-sidebar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	cursor: pointer;
+	width: 230px;
+	padding: 0.7rem;
+	border-radius: 8px;
+	background: var(--chakra-colors-brand-blue-50);
+	transition: background-color 0.2s ease-in-out;
+}
