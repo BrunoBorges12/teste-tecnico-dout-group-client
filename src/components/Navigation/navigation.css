@@ -1,0 +1,32 @@
+.sidebar {
+	width: 250px;
+	transition: 0.2s ease-in-out;
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 15px;
+	background-color: rgb(255, 255, 255);
+	padding: 65px 0.5rem 0.5rem;
+}
+.header {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	background-color: var(--blue-500);
+
+	padding-inline-start: 2rem;
+	padding-inline-end: 2rem;
+	padding-top: 1.75rem;
+	padding-bottom: 1.75rem;
+	height: 50px;
+	width: 100%;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	z-index: 1001;
+}

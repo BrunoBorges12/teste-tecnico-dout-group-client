@@ -1,0 +1,11 @@
+:root {
+	/* Azul principal (base da paleta) */
+	--blue-500: #001446; /* mais escuro */
+	--blue-400: #02437b;
+	--blue-300: #028bbf;
+	--blue-200: #98cbdc;
+	--blue-100: #d8e9f0; /* mais claro */
+
+	/* fonte */
+	--font-family: "Inter", sans-serif;
+}

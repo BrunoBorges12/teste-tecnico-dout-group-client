@@ -1,0 +1,67 @@
+/* Reset básico */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Fonte e line-height base */
+html {
+	font-family: var(--font-family, "Inter", sans-serif);
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+/* Lists */
+ul,
+ol {
+	list-style: none;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Inputs, buttons e selects */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+	margin: 0;
+}
+
+/* Imagens e vídeos */
+img,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+/* Botões */
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}

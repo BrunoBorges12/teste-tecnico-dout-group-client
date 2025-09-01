@@ -1,0 +1,41 @@
+.layout-main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.layout-site {
+	padding-top: 70px;
+	padding-bottom: 25px;
+	padding-inline: 25px;
+	padding-left: 85px;
+	display: flex;
+	align-items: center;
+	transition: 0.2s ease-in-out;
+}
+
+.layout-content {
+	max-width: 1080px;
+	width: 100%;
+}
+
+.layout-content-padding {
+	padding-top: 10px; /* padrão para telas pequenas */
+}
+
+@media screen and (min-width: 48em) {
+	.layout-content-padding {
+		padding-top: 20px; /* telas médias */
+	}
+}
+
+@media screen and (min-width: 62em) {
+	.layout-content-padding {
+		padding-top: 60px; /* telas grandes */
+	}
+}
+:where(.layout).layout {
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+}
